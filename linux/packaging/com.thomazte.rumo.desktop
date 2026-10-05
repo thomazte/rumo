@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Rumo
+Comment=Tarefas, foco e o que importa hoje
+Exec=rumo
+Icon=com.thomazte.rumo
+Terminal=false
+Categories=Office;ProjectManagement;
+StartupWMClass=com.thomazte.rumo

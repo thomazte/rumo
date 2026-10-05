@@ -1,0 +1,43 @@
+name: rumo
+description: "Rumo: tarefas, foco e widgets."
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.13.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  google_fonts: ^9.0.0
+  home_widget: ^0.10.0
+  path_provider: ^2.1.6
+  tray_manager: ^0.7.0
+  window_manager: ^0.5.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.4
+  fake_async: ^1.3.3
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    # Ícone da janela no Linux (carregado por linux/runner/my_application.cc).
+    - assets/icon/rumo-256.png
+    # Ícone da bandeja (barra superior escura do GNOME).
+    - assets/icon/tray.png
+
+flutter_launcher_icons:
+  android: true
+  ios: false
+  image_path: "assets/icon/rumo-icon.png"
+  min_sdk_android: 21
+  adaptive_icon_background: "assets/icon/android-background.png"
+  adaptive_icon_foreground: "assets/icon/android-foreground.png"
+  adaptive_icon_monochrome: "assets/icon/android-monochrome.png"

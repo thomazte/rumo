@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="widget_today">Hoje</string>
+    <string name="widget_today_desc">As tarefas de hoje, com o círculo para concluir.</string>
+    <string name="widget_next">A seguir</string>
+    <string name="widget_next_desc">A próxima tarefa com horário ou a mais urgente.</string>
+    <string name="widget_progress">Progresso</string>
+    <string name="widget_progress_desc">Quanto do dia já foi feito.</string>
+    <string name="widget_add">Adicionar tarefa</string>
+    <string name="widget_add_desc">Abre a captura rápida direto.</string>
+</resources>
